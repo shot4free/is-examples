@@ -10,10 +10,10 @@ spec:
     image: nginx
     resources:
       limits:
-        memory: "4Gi"
+        memory: "8Gi"
         cpu: "2000m"
       requests:
-        memory: "2Gi"
+        memory: "8Gi"
         cpu: "1000m"
     ports:
       - containerPort: 80
